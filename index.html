@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>タイピングゲーム</title>
+</head>
+
+<body>
+    <button id="start">スタート</button>
+    <h1 id="count" class="none">3</h1>
+    <div id="typing" class="none">
+        <h1>残り時間<span id="game-timer">60</span>秒</h1>
+        <h1 id="title"></h1>
+        <h1 id="ruby"></h1>
+    </div>
+    <div id="finish" class="none">
+        <h1>正しく打ったキーの数：<span id="key-count"></span></h1>
+        <h1>タイプミス：<span id="type-miss"></span></h1>
+        <h1>タイピングの正確率：<span id="difference"></span>%</h1>
+        <button id="restart">もう一度遊ぶ</button>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
